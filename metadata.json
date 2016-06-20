@@ -1,0 +1,37 @@
+{
+  "name": "petems-systemd_logs",
+  "version": "0.1.0",
+  "author": "Petems",
+  "summary": "A temporary workaround module for PUP-5604.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/petems-systemd_logs",
+  "project_page": "https://github.com/petems-systemd_logs",
+  "issues_url": "https://github.com/petems-systemd_logs/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.8.0 < 2015.4.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "dependencies": [
+
+  ]
+}

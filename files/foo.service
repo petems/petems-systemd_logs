@@ -1,0 +1,5 @@
+[Unit]
+Description=This always fails
+
+[Install]
+WantedBy=multi-user.target
